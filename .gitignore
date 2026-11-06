@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.mxq
+*.onnx
+*.pth
+*.npy
+*.npz
+npu_outputs/
+calib_data/
+mxq_output/
