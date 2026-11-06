@@ -73,7 +73,7 @@ results/                raw benchmark output
 tools/make_chart.py     regenerates assets/rtf_comparison.png from the results file
 ```
 
-The NPU compile and inference scripts (`compile_to_mxq.py`, `npu_inference.py`) will be added under `scripts/`.
+The NPU scripts are in [`scripts/`](scripts): `compile_to_mxq.py` (qubee compile, first two-input version) and `npu_inference.py` (benchmark and WAV output). Both need Mobilint's toolchain and an NPU, and they were rebuilt from the originals in my course Drive, so whitespace may differ from the originals.
 
 Regenerate the chart:
 
